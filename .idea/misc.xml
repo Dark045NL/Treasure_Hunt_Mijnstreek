@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ricky/AndroidStudioProjects/Treasure_Hunt_Mijnstreek/app/src/main/res/layout/activity_done_page.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ricky/AndroidStudioProjects/Treasure_Hunt_Mijnstreek/app/src/main/res/layout/activity_homescreen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ricky/AndroidStudioProjects/Treasure_Hunt_Mijnstreek/app/src/main/res/layout/activity_homescreen2.xml" value="0.33" />
         <entry key="..\:/Users/ricky/AndroidStudioProjects/Treasure_Hunt_Mijnstreek/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
       </map>
     </option>
