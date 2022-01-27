@@ -13,6 +13,15 @@ public class homescreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homescreen2);
+
+        Button btnList = (Button) findViewById(R.id.btn_list);
+        btnList.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent int1=new Intent(homescreen.this, done_page.class);
+                startActivity(int1);
+            }
+        });
     }
 
 
