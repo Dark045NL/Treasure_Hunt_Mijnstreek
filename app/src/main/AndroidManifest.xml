@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.treasure_hunt_mijnstreek">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/treasure_hunt_logo_png_98fa250b6c4ef4b06f8054c4dedbaa43"
@@ -9,6 +11,9 @@
         android:roundIcon="@drawable/treasure_hunt_logo_png_98fa250b6c4ef4b06f8054c4dedbaa43"
         android:supportsRtl="true"
         android:theme="@style/Theme.Treasure_Hunt_Mijnstreek">
+        <activity
+            android:name=".QR_Scanner"
+            android:exported="false" />
         <activity
             android:name=".ui.main.QuestionActivity"
             android:exported="false" />
@@ -32,6 +37,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Capture"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"/>
     </application>
 
 </manifest>

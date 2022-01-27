@@ -17,6 +17,8 @@ public class homescreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homescreen2);
 
+        Button BtnBarQR = (Button) findViewById(R.id.btn_bar_qr);
+        Button BtnQR = (Button) findViewById(R.id.btn_qr);
         Button BtnQuiz = (Button) findViewById(R.id.btn_quiz);
         Button BtnBarList = (Button) findViewById(R.id.btn_bar_list);
         Button btnList = (Button) findViewById(R.id.btn_list);
@@ -40,6 +42,22 @@ public class homescreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent int1=new Intent(homescreen.this, QuizActivity.class);
+                startActivity(int1);
+            }
+        });
+
+        BtnQR.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent int1=new Intent(homescreen.this, QR_Scanner.class);
+                startActivity(int1);
+            }
+        });
+
+        BtnBarQR.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent int1=new Intent(homescreen.this, QR_Scanner.class);
                 startActivity(int1);
             }
         });
