@@ -4,11 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/treasure_hunt_logo_png_98fa250b6c4ef4b06f8054c4dedbaa43"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/treasure_hunt_logo_png_98fa250b6c4ef4b06f8054c4dedbaa43"
         android:supportsRtl="true"
         android:theme="@style/Theme.Treasure_Hunt_Mijnstreek">
+        <activity
+            android:name=".ui.main.QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.QuizActivity"
+            android:exported="false" />
         <activity
             android:name=".homescreen"
             android:exported="false" />

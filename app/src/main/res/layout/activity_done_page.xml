@@ -63,6 +63,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp">
 
             </androidx.cardview.widget.CardView>
@@ -72,6 +73,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp">
 
             </androidx.cardview.widget.CardView>
@@ -81,6 +83,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp">
 
             </androidx.cardview.widget.CardView>
@@ -90,6 +93,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp">
 
             </androidx.cardview.widget.CardView>
@@ -99,6 +103,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp">
 
             </androidx.cardview.widget.CardView>
@@ -108,6 +113,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="27dp" />
         </LinearLayout>
     </ScrollView>
