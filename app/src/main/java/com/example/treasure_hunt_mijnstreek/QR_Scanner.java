@@ -32,7 +32,7 @@ public class QR_Scanner extends AppCompatActivity {
                 IntentIntegrator intentIntegrator = new IntentIntegrator(
                         QR_Scanner.this
                 );
-                intentIntegrator.setPrompt("Is er te weinig licht? Gebruik dan de volume omhoog knop.");
+                intentIntegrator.setPrompt("Te weinig licht? Gebruik dan de volume omhoog knop.");
 
                 intentIntegrator.setBeepEnabled(true);
 

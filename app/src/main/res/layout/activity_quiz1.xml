@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/question"
-    tools:context=".ui.main.QuestionActivity">
+    tools:context=".QuizActivity1">
+
 
     <Button
         android:id="@+id/btn_bar_list6"
@@ -84,7 +85,7 @@
         app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/textView4"
@@ -98,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.322" />
 
     <TextView
         android:id="@+id/textView5"
@@ -109,8 +110,8 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.474" />
+        app:layout_constraintVertical_bias="0.489" />
 </androidx.constraintlayout.widget.ConstraintLayout>

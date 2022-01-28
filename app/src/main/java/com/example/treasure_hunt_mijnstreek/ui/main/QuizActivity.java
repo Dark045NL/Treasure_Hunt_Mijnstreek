@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.treasure_hunt_mijnstreek.QuizActivity1;
 import com.example.treasure_hunt_mijnstreek.R;
 import com.example.treasure_hunt_mijnstreek.done_page;
 import com.example.treasure_hunt_mijnstreek.homescreen;
@@ -24,7 +25,7 @@ public class QuizActivity extends AppCompatActivity {
         BtnStartQuiz.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent int1=new Intent(QuizActivity.this, QuestionActivity.class);
+                Intent int1=new Intent(QuizActivity.this, QuizActivity1.class);
                 startActivity(int1);
             }
         });
